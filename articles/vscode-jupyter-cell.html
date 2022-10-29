@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ja">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+    <!-- footer固定用 js -->
+    <script type="text/javascript" src="https://www.revalab.net/theme/js/footerfixed.js"></script> 
+
+    <!-- CSS読み込み -->
+    <link href="https://www.revalab.net/theme/prism.css" rel="stylesheet" />
+    <link href="https://www.revalab.net/theme/style.css" rel="stylesheet" />
+    
+    <!-- 検索用のcss -->
+    <link rel="stylesheet" href="https://www.revalab.net/theme/basic.css" />
+    
+    <link rel="shortcut icon" href="https://www.revalab.net/favicon.ico" type="image/vnd.microsoft.icon">
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4085279763090083"
+     crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <a href="https://www.revalab.net/"><img src="/theme/images/kanicrab_logo.PNG" alt="" width="400" height="113" style="border-style: none; margin: 0px;"></a>
+      <p style="margin: 0px 0px 0px 20px; padding-bottom: 5px;">PythonやPC関連の情報をまとめているブログです</p>
+    </header>
+
+    <hr class="header-line" size="30">
+    
+    <div id="page">
+      <article id="main-content">
+    <ol class="breadcrumb">
+      <li><a href="https://www.revalab.net"><span>Home</span></a><span style="margin: 0px 10px">/</span></li>
+      <li><a href="https://www.revalab.net/categories.html">Categories</a><span style="margin: 0px 10px">/</span></li>
+      <li class="active">VSCode</li>
+    </ol>
+    <section id="content" class="article content">
+      <header>
+        <h2 class="entry-title">
+          【VSCode】Jupyter拡張機能でセル表示を常に展開させる方法
+        </h2>
+        
+      </header>
+<div class="part1">
+    <ul class="i-list">
+        <li class="i-item"><span>Category: </span><a href="https://www.revalab.net/category/vscode.html">VSCode</a></li>
+        <li class="i-item"><span>Tags: </span><a href="https://www.revalab.net/tag/python.html">Python</a> <a href="https://www.revalab.net/tag/jupyter.html">Jupyter</a> </li>
+        <br>
+        <li class="i-item">
+            <span>Posted on: </span>2021-09-30
+        </li>
+            <br>
+            <li class="i-item">
+                <span>Updated on: </span>2022-08-03
+            </li>
+    </ul>
+</div><!-- .entry-content -->
+      <div class="entry-content">
+        <main>
+        <div class="admonition abstract">
+<p>VSCodeのJupyter拡張機能でセル表示を常に展開させる設定について解説します．</p>
+</div>
+<div class="toc"><span class="toctitle">目次</span><ul>
+<li><a href="#_1">イメージ</a></li>
+<li><a href="#_2">表示の変更方法</a><ul>
+<li><a href="#_3">参考</a></li>
+</ul>
+</li>
+<li><a href="#_4">ひとこと</a></li>
+</ul>
+</div>
+<h2 id="_1">イメージ</h2>
+<p>以下のような感じです．<br>
+<img src="/images/vscode-jupyter-cell/vscode-jupyter-cell_00.png" width="600" height="248"></p>
+<h2 id="_2">表示の変更方法</h2>
+<h5 id="1-vscodecommand">① VSCodeの設定を<kbd><kbd>Command</kbd>+<kbd>,</kbd></kbd>で設定を開く</h5>
+<p>以下のような設定タブが表示されます．<br>
+<img src="/images/vscode-jupyter-cell/vscode-jupyter-cell_01.png" width="300" height="130"></p>
+<h5 id="2-collapse-cell">② 設定タブの検索窓で「collapse cell」と入力</h5>
+<p>結果のうち「<strong>Interactive Window: Collapse Cell Input Code</strong>」を確認します．<br>
+<img src="/images/vscode-jupyter-cell/vscode-jupyter-cell_02.png" width="600" height="229"></p>
+<h5 id="3-never">③ 設定を「never」に変更する</h5>
+<p><img src="/images/vscode-jupyter-cell/vscode-jupyter-cell_03.png" width="600" height="238"></p>
+<p>これでセルが常に展開されて表示されます！</p>
+<h3 id="_3">参考</h3>
+<p>セルの展開・折りたたみ<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>は「Interactive」タブのメニューで操作できます．<br></p>
+<p><img src="/images/vscode-jupyter-cell/vscode-jupyter-cell_04.png" width="600" height="78"></p>
+<p>VSCodeのウィンドウサイズが小さいと以下のように<code>...</code>となっている場合もあります．<br>
+この場合は<code>...</code>をクリックすると展開・折りたたみが選択できます．<br>
+<img src="/images/vscode-jupyter-cell/vscode-jupyter-cell_05.png" width="600" height="99"></p>
+<h2 id="_4">ひとこと</h2>
+<p>実行したセルのコードと結果をまとめて確認したい派なので，このような設定をしました．<br>
+処理時間や状況を合わせて確認できるのはいいですね．</p>
+<div style="margin-bottom: 100px;"></div>
+
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>英語の場合は展開(Expand)，折りたたみ(Collapse)です．&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+        </main>
+      </div>
+<!-- /.entry-content -->
+      <!-- <footer class="post-info text-muted">
+        <button type="button" class="btn btn-default">          
+          <a href="https://www.revalab.net/category/vscode.html"><div class="fa fa-lg fa-folder-open"></div> VSCode</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="https://www.revalab.net/tag/python.html"><div class="fa fa-lg fa-tag"></div> Python</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="https://www.revalab.net/tag/jupyter.html"><div class="fa fa-lg fa-tag"></div> Jupyter</a>
+        </button>
+      </footer> -->
+      <!-- /.post-info -->
+    </section>
+      
+      </article>
+
+      <aside id="sidebar">
+        <h4 class="side-top" style="margin-bottom: 0px;">サイト内検索</h4>
+        <input data-stork="sitesearch" class="search-box" type="text" placeholder="キーワードを入力" /><div data-stork="sitesearch-output"></div>
+        <span style="font-size: 14px;">３文字以上でヒット記事を表示します．</span><br>
+        <span style="font-size: 14px;">検索結果はスクロール可能です．</span>
+
+        <h4>サイト情報</h4>
+        <ul>
+          <li>管理人  ：<a href="https://www.revalab.net/pages/about.html">かに</a></li>
+          <li>Twitter ：<a href="https://twitter.com/@kaniCrab_blog" target="_blank" rel="noopener noreferrer">かにクラブ</a></li>
+          <li>記事一覧：<a href="https://www.revalab.net/archives.html">アーカイブ</a></li>
+        </ul>
+
+        <h4>おすすめの記事</h4>
+        <ul>
+          <li style="margin: 15px 0px;"><a href="https://www.revalab.net/articles/auto-command.html">【Mac】簡単３ステップで自動化（自作）コマンドを作成する </a></li>
+          <li style="margin: 15px 0px;"><a href="https://www.revalab.net/articles/python-pyenv-poetry.html">【M2 Mac】Pyenv/PoetryによるPython環境構築</a></li>
+          <li style="margin: 15px 0px;"><a href="https://www.revalab.net/articles/copyclip-2-paste-directly.html">【Mac】CopyClip2 クリップボード管理アプリのおすすめ設定 </a></li>
+        </ul>
+        <h4>カテゴリー</h4>
+        <ul class="side-c">          <li>
+              <a href="https://www.revalab.net/category/burogu.html"> ブログ </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/google-workspace.html"> Google Workspace </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/mac.html"> Mac </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/maclinux.html"> Mac/Linux </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/python.html"> Python </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/slack.html"> Slack </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/sql.html"> SQL </a>
+          </li>
+          <li>
+              <a href="https://www.revalab.net/category/vscode.html"> VSCode </a>
+          </li>
+        </ul>
+        <h4>Tag</h4>
+        <div class="side-t">
+          <ul class="list-inline">            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/app.html"> App  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/docker.html"> Docker  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/googlesuraido.html"> Googleスライド  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/huan-jing-gou-zhu.html"> 環境構築  <span class="category-design">(3)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/jupyter.html"> Jupyter  <span class="category-design">(3)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/keynote.html"> Keynote  <span class="category-design">(2)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/numbers.html"> Numbers  <span class="category-design">(2)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/pandas.html"> pandas  <span class="category-design">(9)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/pelican.html"> pelican  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/postgresql.html"> PostgreSQL  <span class="category-design">(5)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/python.html"> Python  <span class="category-design">(22)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/r.html"> R  <span class="category-design">(2)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/scipy.html"> SciPy  <span class="category-design">(2)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/shellscript.html"> shellscript  <span class="category-design">(4)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/slack.html"> Slack  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/vim.html"> Vim  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/xing-hinto.html"> 型ヒント  <span class="category-design">(2)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/za-ji.html"> 雑記  <span class="category-design">(2)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/zi-dong-hua.html"> 自動化  <span class="category-design">(1)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/zi-ran-yan-yu-chu-li.html"> 自然言語処理  <span class="category-design">(3)</span></a>
+            </li>
+            <li class="category-design">
+                <a class="category-design" href="https://www.revalab.net/tag/zsh.html"> zsh  <span class="category-design">(6)</span></a>
+            </li>
+          </ul>
+        </div>
+        
+        <h4>ads</h4>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4085279763090083"
+            crossorigin="anonymous"></script>
+        <!-- kaniCrab_side -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4085279763090083"
+            data-ad-slot="7527002853"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        <h4>推薦書籍</h4>
+        <ul>
+          <li><a href="#">準備中</a></li>
+          <li><a href="#">準備中</a></li>
+          <li><a href="#">準備中</a></li>
+        </ul>
+      </aside>
+
+      <footer id="footer">
+      <div class="copyright">
+          <ul class="copy-ul">
+            <li class="copy-li" style="margin-right: 10px;"><a href="https://www.revalab.net/pages/about.html">管理人</a></li>
+            <li class="copy-li" style="margin: 0px 10px 0px 10px;"><a href="https://www.revalab.net/pages/contact.html">お問い合わせ</a></li>
+            <li class="copy-li" style="margin-left: 10px;"><a href="https://www.revalab.net/pages/privacy-policy.html">プライバシーポリシー/免責事項</a></li>
+          </ul>
+          <div>&copy; 2022 <a href="https://www.revalab.net">かにクラブ</a> powered by <a href="http://getpelican.com/">pelican</a></div>
+        </div>
+      </footer>
+    </div>
+      
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- footnoteのためのjquery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.revalab.net/theme/js/prism.js"></script>
+    <script type="text/javascript" src="https://www.revalab.net/theme/js/footnotes.js"></script>
+    
+    <!-- 検索用のjavascript -->
+    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://www.revalab.net/search-index.st")
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-172023948-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+  </body>
+</html>
