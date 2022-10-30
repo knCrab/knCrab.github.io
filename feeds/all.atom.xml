@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>かにクラブ</title><link href="https://www.revalab.net/" rel="alternate"></link><link href="https://www.revalab.net/feeds/all.atom.xml" rel="self"></link><id>https://www.revalab.net/</id><updated>2022-10-23T00:00:00+09:00</updated><subtitle>PythonやPC関連の情報をまとめているブログです</subtitle><entry><title>サイトをWordPressからPelicanに切り替えました</title><link href="https://www.revalab.net/articles/site-renewal.html" rel="alternate"></link><published>2022-10-23T00:00:00+09:00</published><updated>2022-10-23T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-10-23:/articles/site-renewal.html</id><summary type="html">&lt;p&gt;ブログリニューアルのお知らせです．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>かにクラブ</title><link href="https://www.revalab.net/" rel="alternate"></link><link href="https://www.revalab.net/feeds/all.atom.xml" rel="self"></link><id>https://www.revalab.net/</id><updated>2022-10-30T00:00:00+09:00</updated><subtitle>PythonやPC関連の情報をまとめているブログです</subtitle><entry><title>サイトをWordPressからPelicanに切り替えました</title><link href="https://www.revalab.net/articles/site-renewal.html" rel="alternate"></link><published>2022-10-30T00:00:00+09:00</published><updated>2022-10-30T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-10-30:/articles/site-renewal.html</id><summary type="html">&lt;p&gt;ブログリニューアルのお知らせです．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;サイトをリニューアルしました．&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
@@ -18,12 +18,12 @@
 &lt;h2 id="_1"&gt;概要&lt;/h2&gt;
 &lt;p&gt;これまではWordPressでブログを運営していましたが，pelicanに切り替えました．&lt;br&gt;
 WordPressでも大きな不満はなかったのですが，余計な機能が多くもっとシンプルに管理・運営がしたいと考えて移行を行なった次第です．&lt;/p&gt;
+&lt;p&gt;装飾などについては&lt;a href="http://revalab.net/pages/about.html" rel="noopener noreferrer" target="_blank"&gt;こちら&lt;/a&gt;を参照．&lt;/p&gt;
 &lt;h2 id="pelican"&gt;pelicanに関して&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://getpelican.com/" rel="noopener noreferrer" target="_blank"&gt;pelican&lt;/a&gt;はPython謹製の静的サイトジェネレーターで，とても簡単にブログを作成することができます．&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;（個人的）メリット&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ローカルで記事が書ける&lt;/li&gt;
-&lt;li&gt;記事はMarkdown形式&lt;/li&gt;
+&lt;li&gt;記事がローカル&amp;amp;Markdown形式で書ける&lt;/li&gt;
 &lt;li&gt;サイトプレビュー・更新が１コマンド&lt;/li&gt;
 &lt;li&gt;ディレクトリ構成もシンプルで管理が容易&lt;/li&gt;
 &lt;/ul&gt;
@@ -36,7 +36,7 @@ WordPressでも大きな不満はなかったのですが，余計な機能が�
 &lt;li&gt;デプロイ&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="pelican_1"&gt;pelicanの環境構築&amp;amp;動作確認&lt;/h3&gt;
-&lt;p&gt;環境構築などはそれほど大きな問題はなく進めることができました．&lt;/p&gt;
+&lt;p&gt;環境構築などはそれほど大きな問題なく進めることができました．&lt;/p&gt;
 &lt;div style="margin-bottom: 90px;"&gt;&lt;/div&gt;
 
 &lt;h3 id="_3"&gt;テーマ選定&lt;/h3&gt;
@@ -50,7 +50,7 @@ WordPressでも大きな不満はなかったのですが，余計な機能が�
 
 &lt;h3 id="_4"&gt;既存記事の書き直し&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;一番大変&lt;/strong&gt;&lt;br&gt;
-頑張って書き直しました．&lt;/p&gt;
+頑張って書き直しました.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div style="margin-bottom: 90px;"&gt;&lt;/div&gt;
 
 &lt;h3 id="_5"&gt;デプロイ&lt;/h3&gt;
@@ -67,7 +67,51 @@ WordPressでも大きな不満はなかったのですが，余計な機能が�
 &lt;h2 id="_6"&gt;ひとこと&lt;/h2&gt;
 &lt;p&gt;結構大変&amp;amp;面倒でしたが，これで記事をスムーズに書ける環境が整いました．&lt;br&gt;
 早く慣れて有用な記事を作成していきたいです．&lt;/p&gt;
-&lt;div style="margin-bottom: 100px;"&gt;&lt;/div&gt;</content><category term="ブログ"></category><category term="雑記"></category><category term="pelican"></category></entry><entry><title>JupyterでDockerのPostgreSQLに接続する方法</title><link href="https://www.revalab.net/articles/jupyter-sql-postgres.html" rel="alternate"></link><published>2022-09-01T00:00:00+09:00</published><updated>2022-09-02T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-09-01:/articles/jupyter-sql-postgres.html</id><summary type="html">&lt;p&gt;JupyterでDockerに構築したPostgreSQLと接続して動かす方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;div style="margin-bottom: 100px;"&gt;&lt;/div&gt;
+
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;WordPressからMarkdownへの出力もできるようですが見直しも兼ねて・・・&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="ブログ運営"></category><category term="雑記"></category><category term="pelican"></category></entry><entry><title>【PyTorch】touchvizのインストール方法（Mac）</title><link href="https://www.revalab.net/articles/pytorch_torchviz.html" rel="alternate"></link><published>2022-10-29T00:00:00+09:00</published><updated>2022-10-30T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-10-29:/articles/pytorch_torchviz.html</id><summary type="html">&lt;p&gt;計算グラフを表示するライブラリtouchvizをインストールする方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;p&gt;本記事ではMacにおけるtouchvizのインストール方法をご紹介します．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#_1"&gt;インストール方法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#_2"&gt;参考&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#_3"&gt;ひとこと&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="_1"&gt;インストール方法&lt;/h2&gt;
+&lt;p&gt;touchvizは計算グラフを表示できるPythonのライブラリです．&lt;br&gt;
+touchvizのインストールには以下の&lt;strong&gt;２つ&lt;/strong&gt;のコマンドを実行すればOKです．&lt;/p&gt;
+&lt;p&gt;torchviz自体のインストール&lt;/p&gt;
+&lt;pre class="command-line s-middle" data-prompt="%"&gt;
+&lt;code class="language-bash"&gt;
+pip install torchviz
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;torchvizを動作させるのに必要なパッケージ（brewでインストール）&lt;/p&gt;
+&lt;pre class="command-line s-end" data-prompt="%"&gt;
+&lt;code class="language-bash"&gt;
+brew install graphviz
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h3 id="_2"&gt;参考&lt;/h3&gt;
+&lt;p&gt;torchvizだけをインストールして動かすと以下のようなエラーが出ます．&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ExecutableNotFound: failed to execute PosixPath('dot'), make sure the Graphviz executables are on your systems' PATH&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;torchvizはgraphvizというパッケージがインストールされていないと動かないようです．&lt;/p&gt;
+&lt;h2 id="_3"&gt;ひとこと&lt;/h2&gt;
+&lt;p&gt;管理人はtorchvizだけを入れて動かしたのでエラーとなってしまいました・・・&lt;br&gt;
+&lt;code&gt;brew&lt;/code&gt;でgraphvizも忘れずに入れておきましょう．&lt;/p&gt;
+&lt;div style="margin-bottom: 100px;"&gt;&lt;/div&gt;</content><category term="PyTorch"></category><category term="PyTorch"></category><category term="Python"></category><category term="環境構築"></category></entry><entry><title>JupyterでDockerのPostgreSQLに接続する方法</title><link href="https://www.revalab.net/articles/jupyter-sql-postgres.html" rel="alternate"></link><published>2022-09-01T00:00:00+09:00</published><updated>2022-09-02T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-09-01:/articles/jupyter-sql-postgres.html</id><summary type="html">&lt;p&gt;JupyterでDockerに構築したPostgreSQLと接続して動かす方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;ローカルのJupyterとDockerのPostgreSQLを接続しJupyterでクエリを実行する方法について解説しています．&lt;br&gt;
 環境構築後はJupyterのセルで簡単にクエリを実行することができるようになります．&lt;/p&gt;
 &lt;/div&gt;

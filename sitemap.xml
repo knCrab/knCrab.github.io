@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/</loc>
-<lastmod>2022-10-30T08:51:57-00:00</lastmod>
+<lastmod>2022-10-30T11:28:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -33,7 +33,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/articles/site-renewal.html</loc>
-<lastmod>2022-10-23T00:00:00+09:00</lastmod>
+<lastmod>2022-10-30T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.revalab.net/articles/pytorch_torchviz.html</loc>
+<lastmod>2022-10-30T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -333,8 +340,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/category/burogu.html</loc>
-<lastmod>2022-10-23T00:00:00+09:19</lastmod>
+<loc>https://www.revalab.net/category/buroguyun-ying.html</loc>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -368,6 +375,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.revalab.net/category/pytorch.html</loc>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.revalab.net/category/slack.html</loc>
 <lastmod>2022-08-03T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
@@ -390,14 +404,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/tag/za-ji.html</loc>
-<lastmod>2022-10-23T00:00:00+09:19</lastmod>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.revalab.net/tag/pelican.html</loc>
-<lastmod>2022-10-23T00:00:00+09:19</lastmod>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.revalab.net/tag/pytorch.html</loc>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.revalab.net/tag/python.html</loc>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.revalab.net/tag/huan-jing-gou-zhu.html</loc>
+<lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -417,13 +452,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/huan-jing-gou-zhu.html</loc>
-<lastmod>2022-09-02T00:00:00+09:19</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://www.revalab.net/tag/vim.html</loc>
 <lastmod>2022-08-05T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
@@ -433,13 +461,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.revalab.net/tag/app.html</loc>
 <lastmod>2022-08-02T00:00:00+09:19</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.revalab.net/tag/python.html</loc>
-<lastmod>2022-10-08T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
