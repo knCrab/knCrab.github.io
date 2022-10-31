@@ -17,7 +17,7 @@
     <link href="https://www.revalab.net/theme/style.css" rel="stylesheet" />
     
     <!-- 検索用のcss -->
-    <link rel="stylesheet" href="https://www.revalab.net/theme/basic.css" />
+    <!-- <link rel="stylesheet" href="https://www.revalab.net/theme/basic.css" /> -->
     
     <link rel="shortcut icon" href="https://www.revalab.net/favicon.ico" type="image/vnd.microsoft.icon">
     
@@ -175,9 +175,12 @@ Pythonでグラフを書く際は自動で調整してくれるのでいちい�
 
       <aside id="sidebar">
         <h4 class="side-top" style="margin-bottom: 0px;">サイト内検索</h4>
-        <input data-stork="sitesearch" class="search-box" type="text" placeholder="キーワードを入力" /><div data-stork="sitesearch-output"></div>
+        <script async src="https://cse.google.com/cse.js?cx=a5f605a4a126b4341">
+        </script>
+        <div class="gcse-searchbox-only"></div>
+        <!-- <input data-stork="sitesearch" class="search-box" type="text" placeholder="キーワードを入力" /><div data-stork="sitesearch-output"></div>
         <span style="font-size: 14px;">３文字以上でヒット記事を表示します．</span><br>
-        <span style="font-size: 14px;">検索結果はスクロール可能です．</span>
+        <span style="font-size: 14px;">検索結果はスクロール可能です．</span> -->
 
         <h4>サイト情報</h4>
         <ul>
@@ -321,7 +324,7 @@ Pythonでグラフを書く際は自動で調整してくれるのでいちい�
             <li class="copy-li" style="margin: 0px 10px 0px 10px;"><a href="https://www.revalab.net/pages/contact.html">お問い合わせ</a></li>
             <li class="copy-li" style="margin-left: 10px;"><a href="https://www.revalab.net/pages/privacy-policy.html">プライバシーポリシー/免責事項</a></li>
           </ul>
-          <div>&copy; 2022 <a href="https://www.revalab.net">かにクラブ</a> powered by <a href="http://getpelican.com/">pelican</a></div>
+          <div>&copy; 2022 <a href="https://www.revalab.net">かにクラブ</a> powered by <a href="https://getpelican.com/">pelican</a></div>
         </div>
       </footer>
     </div>
@@ -335,10 +338,10 @@ Pythonでグラフを書く際は自動で調整してくれるのでいちい�
     <script type="text/javascript" src="https://www.revalab.net/theme/js/footnotes.js"></script>
     
     <!-- 検索用のjavascript -->
-    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+    <!-- <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
     <script>
         stork.register("sitesearch", "https://www.revalab.net/search-index.st")
-    </script>
+    </script> -->
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

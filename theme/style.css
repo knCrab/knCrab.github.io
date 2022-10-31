@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic,700italic,300,300italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic,700italic,300,300italic&subset=latin,latin-ext);
 
 html {
   font-family:"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
@@ -100,6 +100,44 @@ h4 {
   margin-bottom: 1.1em;
   padding-bottom: 2px;
   border-bottom: solid 0.5px #66556b;
+}
+
+/* google search */
+table.gsc-search-box {
+  width: 100% !important;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+  background-color: #f0f8f5 !important;
+
+}
+
+table.gstl_50, table.gsc-input {
+  border: None !important;
+  margin-bottom: 0px !important;
+}
+
+div.gsc-input-box {
+  border: None !important;
+
+}
+
+td.gsc-input, td.gsc-search-button, td.gsib_a, td.gsib_b {
+  border: None !important;
+  font-size: 16px !important;
+  width: 100% !important;
+}
+
+td.gsib_a {
+  padding: 0px 0px 0px 10px !important;
+}
+
+input.gsc-input {
+  height: 2.5em !important;
+}
+
+.gsc-search-button-v2 {
+  border-color: #0c680a !important;
+  background-color: #0c680a !important;
 }
 
 div.search-box {
