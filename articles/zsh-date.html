@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+    <!-- defer-js -->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@3.4.0/dist/defer.min.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
@@ -528,6 +530,28 @@ date -v 2045y -v 7m -v 20d
     <!-- <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
     <script>
         stork.register("sitesearch", "https://www.revalab.net/search-index.st")
+    </script> -->
+
+    <!-- <script>
+    
+    //遅延読込みさせる外部参照ファイル
+    var deferUrl1 = 'https://www.revalab.net/theme/prism.css';
+    var deferUrl2 = 'https://www.revalab.net/theme/js/prism.js';
+    var deferUrl3 = 'https://www.revalab.net/theme/js/footnotes.js';
+    
+    //遅延表示させるクラス
+    const embed1 = document.getElementsByClassName('line-numbers');
+    const embed2 = document.getElementsByClassName('footnote-ref');
+    
+    try {
+        //prismのJavaScriptとcssの遅延読込み
+        if (embed1.length !== 0) Defer.css(deferUrl1, 'prism-css', 1000, function() { Defer.dom('pre code', 200, 'loaded'); });
+        if (embed1.length !== 0) Defer.js(deferUrl2, 'prism-js', 1000, function() { Defer.dom('pre code', 100, 'ide-loaded', Prism.highlightElement, { rootMargin: "120%" }); });
+        //footnotes
+        if (embed2.length !== 0) Defer.js(deferUrl3, 'footnotes-js', 1000, function() { Defer.dom(embed2, 200, 'loaded'); });
+    } catch (error) { console.log(error) }
+      
+    
     </script> -->
 
     <script>
