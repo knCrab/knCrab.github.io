@@ -241,28 +241,28 @@ $('a[href="#main]').click(function() {
 // });
 
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-  var i = 0;
+//   var i = 0;
 
-  document.querySelectorAll('.highlight > pre').forEach(function (codeBlock, i) {
+//   document.querySelectorAll('.highlight > pre').forEach(function (codeBlock, i) {
     
-      var button = document.createElement('button');
-      button.className = 'copy-code-button';
-      button.type = 'button';
-      button.innerText = '';
-      button.setAttribute('title', 'Copy content');
-      button.innerHTML = '<i class="icon-copy"></i>';
-      button.setAttribute('data-clipboard-target', '#code-' + parseInt(i));
-      var pre = codeBlock;
-      codeBlock.setAttribute('id', 'code-' + parseInt(i));
-      pre.insertBefore(button, pre.firstChild);
-      i++;
-  });
+//       var button = document.createElement('button');
+//       button.className = 'copy-code-button';
+//       button.type = 'button';
+//       button.innerText = '';
+//       button.setAttribute('title', 'Copy content');
+//       button.innerHTML = '<i class="icon-copy"></i>';
+//       button.setAttribute('data-clipboard-target', '#code-' + parseInt(i));
+//       var pre = codeBlock;
+//       codeBlock.setAttribute('id', 'code-' + parseInt(i));
+//       pre.insertBefore(button, pre.firstChild);
+//       i++;
+//   });
 
-    var clipboard = new ClipboardJS(".copy-code-button"); 
+//     var clipboard = new ClipboardJS(".copy-code-button"); 
 
-});
+// });
 
 
  //   $(window).scroll(function(e){ 
@@ -276,41 +276,41 @@ $(document).ready(function(){
  //   } 
  // });
 
-$(document).ready(function(){
- $(".slider").slick({
+// $(document).ready(function(){
+//  $(".slider").slick({
 
-  // normal options...
-  infinite: true,
+//   // normal options...
+//   infinite: true,
 
-  dots: true,
-  adaptiveHeight: true,
-  arrows: true,
-  lazyLoad: 'ondemand',
-  // the magic
-  responsive: [{
+//   dots: true,
+//   adaptiveHeight: true,
+//   arrows: true,
+//   lazyLoad: 'ondemand',
+//   // the magic
+//   responsive: [{
 
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        infinite: true
-      }
+//       breakpoint: 1024,
+//       settings: {
+//         slidesToShow: 3,
+//         infinite: true
+//       }
 
-    }, {
+//     }, {
 
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        dots: true
-      }
+//       breakpoint: 600,
+//       settings: {
+//         slidesToShow: 2,
+//         dots: true
+//       }
 
-    }, {
+//     }, {
 
-      breakpoint: 300,
-      settings: "unslick" // destroys slick
+//       breakpoint: 300,
+//       settings: "unslick" // destroys slick
 
-    }]
-});
-});
+//     }]
+// });
+// });
 
 
     })(jQuery);
