@@ -232,13 +232,13 @@ $('a[href="#main]').click(function() {
 
 
 
-$(function() {
-    $('#nav-wrapper').height($("#nav").height());
+// $(function() {
+//     $('#nav-wrapper').height($("#nav").height());
 
-    $('#nav').affix({
-      offset: { top: $('#nav').offset().top }
-  });
-});
+//     $('#nav').affix({
+//       offset: { top: $('#nav').offset().top }
+//   });
+// });
 
 
 $(document).ready(function(){
