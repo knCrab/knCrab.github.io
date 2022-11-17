@@ -1332,7 +1332,7 @@ date -v 2045y -v 7m -v 20d
 &lt;p&gt;月の指定をJulyの略記に置き換えています(&lt;u&gt;Jul&lt;/u&gt;y + &lt;u&gt;m&lt;/u&gt;onth)．通常は数値で指定する方がわかりやすいと思いますが...&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】シェルスクリプトから別のシェルスクリプトを呼び出す方法</title><link href="https://www.revalab.net/articles/shell-sh-call-sh.html" rel="alternate"></link><published>2022-06-08T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-06-08:/articles/shell-sh-call-sh.html</id><summary type="html">&lt;p&gt;シェルスクリプト中で別のシェルスクリプトを呼び出す方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】シェルスクリプトから別のシェルスクリプトを呼び出す方法</title><link href="https://www.revalab.net/articles/shell-sh-call-sh.html" rel="alternate"></link><published>2022-06-08T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-06-08:/articles/shell-sh-call-sh.html</id><summary type="html">&lt;p&gt;シェルスクリプト中で別のシェルスクリプトを呼び出す方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事はシェルスクリプトから別のシェルスクリプトを呼び出す方法を解説しています．&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
@@ -1485,7 +1485,7 @@ echo from test_a.sh
 &lt;p&gt;それぞれのファイルは同じ階層に配置し&lt;code&gt;chmod&lt;/code&gt;で権限を付与しておきます（前項の「参考」を参照）&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Python】文字列を「〜で始まる/終わる/〜が含まれる」で抽出する方法</title><link href="https://www.revalab.net/articles/python-starts-ends-with-in.html" rel="alternate"></link><published>2022-05-20T00:00:00+09:00</published><updated>2022-10-08T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-05-20:/articles/python-starts-ends-with-in.html</id><summary type="html">&lt;p&gt;文字列を条件別に抽出する方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Python】文字列を「〜で始まる/終わる/〜が含まれる」で抽出する方法</title><link href="https://www.revalab.net/articles/python-starts-ends-with-in.html" rel="alternate"></link><published>2022-05-20T00:00:00+09:00</published><updated>2022-10-08T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-05-20:/articles/python-starts-ends-with-in.html</id><summary type="html">&lt;p&gt;文字列を条件別に抽出する方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事では文字列の取得方法に関して以下の種類を見ていきます．
 &lt;ul style="margin: -5px 0px 0px 15px;"&gt;
  &lt;li&gt;〜で始まる文字列&lt;/li&gt;
@@ -1731,7 +1731,7 @@ done
 &lt;p&gt;このコマンドではホームディレクトリの&lt;code&gt;.zshenv&lt;/code&gt;ファイルに&lt;code&gt;setopt GLOB_SUBST&lt;/code&gt;を追記し，それを有効化（&lt;code&gt;source&lt;/code&gt;）しています．なお，ホームディレクトリに&lt;code&gt;.zshenv&lt;/code&gt;ファイルが存在していない場合は，&lt;code&gt;.zshenv&lt;/code&gt;を作成してから追記してくれます．&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>シェルスクリプトのクォテーションまとめ</title><link href="https://www.revalab.net/articles/shell-quotation.html" rel="alternate"></link><published>2022-04-02T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-04-02:/articles/shell-quotation.html</id><summary type="html">&lt;p&gt;シェルスクリプトのクォテーションについて記法をまとめています．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>シェルスクリプトのクォテーションまとめ</title><link href="https://www.revalab.net/articles/shell-quotation.html" rel="alternate"></link><published>2022-04-02T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-04-02:/articles/shell-quotation.html</id><summary type="html">&lt;p&gt;シェルスクリプトのクォテーションについて記法をまとめています．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事はシェルスクリプトで見られる&lt;br&gt;
 クォテーション（&lt;code&gt;'&lt;/code&gt;や&lt;code&gt;"&lt;/code&gt;など）の記法についてまとめています．&lt;/p&gt;
 &lt;/div&gt;
@@ -2093,7 +2093,7 @@ $$KANI
 &lt;p&gt;&lt;code&gt;date&lt;/code&gt;を囲んでいるのはバッククォートです．&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Python】入れ子になったタプルの型ヒントの書き方</title><link href="https://www.revalab.net/articles/python-type-hint-tuple.html" rel="alternate"></link><published>2022-03-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-03-05:/articles/python-type-hint-tuple.html</id><summary type="html">&lt;p&gt;Pythonの型ヒントに関して，入れ子の構造になっているタプルの型ヒントの書き方を紹介します．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Python】入れ子になったタプルの型ヒントの書き方</title><link href="https://www.revalab.net/articles/python-type-hint-tuple.html" rel="alternate"></link><published>2022-03-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-03-05:/articles/python-type-hint-tuple.html</id><summary type="html">&lt;p&gt;Pythonの型ヒントに関して，入れ子の構造になっているタプルの型ヒントの書き方を紹介します．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事はPythonの型ヒントの書き方に関する記事です．&lt;br&gt;
 入れ子の構造になっているタプルの型ヒントの書き方についてまとめています．&lt;/p&gt;
 &lt;/div&gt;
@@ -6683,7 +6683,7 @@ firefox
 &lt;p&gt;&lt;code&gt;open hoge.pdf&lt;/code&gt;とすると通常プレビューでPDFが展開されます．&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category></entry><entry><title>【Mac】簡単３ステップで自動化（自作）コマンドを作成する</title><link href="https://www.revalab.net/articles/auto-command.html" rel="alternate"></link><published>2021-09-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2021-09-03:/articles/auto-command.html</id><summary type="html">&lt;p&gt;Macで自動化（自作）コマンドを作成する方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category></entry><entry><title>【Mac】簡単３ステップで自動化（自作）コマンドを作成する</title><link href="https://www.revalab.net/articles/auto-command.html" rel="alternate"></link><published>2021-09-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2021-09-03:/articles/auto-command.html</id><summary type="html">&lt;p&gt;Macで自動化（自作）コマンドを作成する方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;Macで自動化（自作）コマンドを作成する方法を解説します．&lt;br&gt;
 一度作成してしまえば次からはサクッと任意の操作ができます！&lt;br&gt;
 &lt;br&gt;

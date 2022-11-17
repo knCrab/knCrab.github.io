@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>かにクラブ - Mac/Linux</title><link href="https://www.revalab.net/" rel="alternate"></link><link href="https://www.revalab.net/feeds/maclinux.atom.xml" rel="self"></link><id>https://www.revalab.net/</id><updated>2022-10-07T00:00:00+09:00</updated><subtitle>PythonやPC関連の情報をまとめているブログです</subtitle><entry><title>【Mac/Linux】zsh dateコマンドで日付操作・フォーマットをする方法</title><link href="https://www.revalab.net/articles/zsh-date.html" rel="alternate"></link><published>2022-07-18T00:00:00+09:00</published><updated>2022-08-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-07-18:/articles/zsh-date.html</id><summary type="html">&lt;p&gt;zshにおけるdateコマンドの使い方です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>かにクラブ - Mac-Linux</title><link href="https://www.revalab.net/" rel="alternate"></link><link href="https://www.revalab.net/feeds/mac-linux.atom.xml" rel="self"></link><id>https://www.revalab.net/</id><updated>2022-10-07T00:00:00+09:00</updated><subtitle>PythonやPC関連の情報をまとめているブログです</subtitle><entry><title>【Mac/Linux】zsh dateコマンドで日付操作・フォーマットをする方法</title><link href="https://www.revalab.net/articles/zsh-date.html" rel="alternate"></link><published>2022-07-18T00:00:00+09:00</published><updated>2022-08-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-07-18:/articles/zsh-date.html</id><summary type="html">&lt;p&gt;zshにおけるdateコマンドの使い方です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;zshにおける&lt;code&gt;date&lt;/code&gt;コマンドについて，簡単にまとめています．&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
@@ -276,7 +276,7 @@ date -v 2045y -v 7m -v 20d
 &lt;p&gt;月の指定をJulyの略記に置き換えています(&lt;u&gt;Jul&lt;/u&gt;y + &lt;u&gt;m&lt;/u&gt;onth)．通常は数値で指定する方がわかりやすいと思いますが...&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】シェルスクリプトから別のシェルスクリプトを呼び出す方法</title><link href="https://www.revalab.net/articles/shell-sh-call-sh.html" rel="alternate"></link><published>2022-06-08T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-06-08:/articles/shell-sh-call-sh.html</id><summary type="html">&lt;p&gt;シェルスクリプト中で別のシェルスクリプトを呼び出す方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】シェルスクリプトから別のシェルスクリプトを呼び出す方法</title><link href="https://www.revalab.net/articles/shell-sh-call-sh.html" rel="alternate"></link><published>2022-06-08T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-06-08:/articles/shell-sh-call-sh.html</id><summary type="html">&lt;p&gt;シェルスクリプト中で別のシェルスクリプトを呼び出す方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事はシェルスクリプトから別のシェルスクリプトを呼び出す方法を解説しています．&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
@@ -429,7 +429,7 @@ echo from test_a.sh
 &lt;p&gt;それぞれのファイルは同じ階層に配置し&lt;code&gt;chmod&lt;/code&gt;で権限を付与しておきます（前項の「参考」を参照）&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】zshで *（メタ文字/ワイルドカード）を展開する方法</title><link href="https://www.revalab.net/articles/shell-zsh-meta.html" rel="alternate"></link><published>2022-04-12T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-04-12:/articles/shell-zsh-meta.html</id><summary type="html">&lt;p&gt;zshでメタ文字（ワイルドカード）を展開する方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】zshで *（メタ文字/ワイルドカード）を展開する方法</title><link href="https://www.revalab.net/articles/shell-zsh-meta.html" rel="alternate"></link><published>2022-04-12T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-04-12:/articles/shell-zsh-meta.html</id><summary type="html">&lt;p&gt;zshでメタ文字（ワイルドカード）を展開する方法です．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事は zsh で&lt;code&gt;*&lt;/code&gt;を展開する方法について解説しています．&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
@@ -587,7 +587,7 @@ done
 &lt;p&gt;このコマンドではホームディレクトリの&lt;code&gt;.zshenv&lt;/code&gt;ファイルに&lt;code&gt;setopt GLOB_SUBST&lt;/code&gt;を追記し，それを有効化（&lt;code&gt;source&lt;/code&gt;）しています．なお，ホームディレクトリに&lt;code&gt;.zshenv&lt;/code&gt;ファイルが存在していない場合は，&lt;code&gt;.zshenv&lt;/code&gt;を作成してから追記してくれます．&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>シェルスクリプトのクォテーションまとめ</title><link href="https://www.revalab.net/articles/shell-quotation.html" rel="alternate"></link><published>2022-04-02T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-04-02:/articles/shell-quotation.html</id><summary type="html">&lt;p&gt;シェルスクリプトのクォテーションについて記法をまとめています．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>シェルスクリプトのクォテーションまとめ</title><link href="https://www.revalab.net/articles/shell-quotation.html" rel="alternate"></link><published>2022-04-02T00:00:00+09:00</published><updated>2022-10-07T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2022-04-02:/articles/shell-quotation.html</id><summary type="html">&lt;p&gt;シェルスクリプトのクォテーションについて記法をまとめています．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;本記事はシェルスクリプトで見られる&lt;br&gt;
 クォテーション（&lt;code&gt;'&lt;/code&gt;や&lt;code&gt;"&lt;/code&gt;など）の記法についてまとめています．&lt;/p&gt;
 &lt;/div&gt;
@@ -949,7 +949,7 @@ $$KANI
 &lt;p&gt;&lt;code&gt;date&lt;/code&gt;を囲んでいるのはバッククォートです．&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】openコマンドの活用例</title><link href="https://www.revalab.net/articles/cli-c-open.html" rel="alternate"></link><published>2021-09-08T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2021-09-08:/articles/cli-c-open.html</id><summary type="html">&lt;p&gt;Mac/Linuxのopenコマンドについてまとめています．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category><category term="shellscript"></category></entry><entry><title>【Mac/Linux】openコマンドの活用例</title><link href="https://www.revalab.net/articles/cli-c-open.html" rel="alternate"></link><published>2021-09-08T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><author><name>かに</name></author><id>tag:www.revalab.net,2021-09-08:/articles/cli-c-open.html</id><summary type="html">&lt;p&gt;Mac/Linuxのopenコマンドについてまとめています．&lt;/p&gt;</summary><content type="html">&lt;div class="admonition abstract"&gt;
 &lt;p&gt;Mac/Linuxのopenコマンドについてまとめています．&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;目次&lt;/span&gt;&lt;ul&gt;
@@ -1135,4 +1135,4 @@ firefox
 &lt;p&gt;&lt;code&gt;open hoge.pdf&lt;/code&gt;とすると通常プレビューでPDFが展開されます．&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Mac/Linux"></category><category term="zsh"></category></entry></feed>
+&lt;/div&gt;</content><category term="Mac-Linux"></category><category term="zsh"></category></entry></feed>

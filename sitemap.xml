@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/</loc>
-<lastmod>2022-11-03T23:40:01-00:00</lastmod>
+<lastmod>2022-11-17T19:47:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -340,14 +340,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/category/buroguyun-ying.html</loc>
+<loc>https://www.revalab.net/category/blog-ope.html</loc>
 <lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.revalab.net/category/google-workspace.html</loc>
+<loc>https://www.revalab.net/category/google workspace.html</loc>
 <lastmod>2022-01-12T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -361,7 +361,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/category/maclinux.html</loc>
+<loc>https://www.revalab.net/category/mac-linux.html</loc>
 <lastmod>2022-10-07T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -403,7 +403,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/za-ji.html</loc>
+<loc>https://www.revalab.net/tag/notes.html</loc>
 <lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -431,7 +431,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/huan-jing-gou-zhu.html</loc>
+<loc>https://www.revalab.net/tag/env.html</loc>
 <lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -480,14 +480,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/zi-ran-yan-yu-chu-li.html</loc>
+<loc>https://www.revalab.net/tag/nlp.html</loc>
 <lastmod>2022-10-08T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/xing-hinto.html</loc>
+<loc>https://www.revalab.net/tag/type-hint.html</loc>
 <lastmod>2022-10-05T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -501,7 +501,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/googlesuraido.html</loc>
+<loc>https://www.revalab.net/tag/google-slide.html</loc>
 <lastmod>2022-01-12T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -536,7 +536,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.revalab.net/tag/zi-dong-hua.html</loc>
+<loc>https://www.revalab.net/tag/automation.html</loc>
 <lastmod>2022-08-03T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
