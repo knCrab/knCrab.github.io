@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/</loc>
-<lastmod>2022-11-17T19:47:45-00:00</lastmod>
+<lastmod>2022-11-29T09:52:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -27,6 +27,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.revalab.net/pages/privacy-policy.html</loc>
 <lastmod>2022-07-05T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.revalab.net/articles/dataframe-create-empty-col.html</loc>
+<lastmod>2022-11-29T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -369,7 +376,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/category/python.html</loc>
-<lastmod>2022-10-08T00:00:00+09:19</lastmod>
+<lastmod>2022-11-29T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -403,6 +410,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.revalab.net/tag/python.html</loc>
+<lastmod>2022-11-29T00:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.revalab.net/tag/pandas.html</loc>
+<lastmod>2022-11-29T00:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.revalab.net/tag/notes.html</loc>
 <lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
@@ -418,13 +439,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.revalab.net/tag/pytorch.html</loc>
-<lastmod>2022-10-30T00:00:00+09:19</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.revalab.net/tag/python.html</loc>
 <lastmod>2022-10-30T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -489,13 +503,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.revalab.net/tag/type-hint.html</loc>
 <lastmod>2022-10-05T00:00:00+09:19</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.revalab.net/tag/pandas.html</loc>
-<lastmod>2022-09-09T00:00:00+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
